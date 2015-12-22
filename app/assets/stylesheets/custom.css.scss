@@ -29,8 +29,12 @@ $navbar-default-bg: #ff0000;
 
 .jumbotron h1 {
   color: #00cc00;
-  text-shadow: 2px 2px #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  
   font-weight: bolder;
+  text-shadow: 2px 2px #fff;
   position: relative;
   top: 100px;
 }
@@ -44,11 +48,26 @@ $navbar-default-bg: #ff0000;
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
+
+.description {
+  margin-top: 0;
+}
+
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  coloe: #777
+  color: #777
 }
 
 footer a:hover {
