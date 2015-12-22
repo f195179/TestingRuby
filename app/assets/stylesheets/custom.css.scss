@@ -35,11 +35,15 @@ $navbar-default-bg: #ff0000;
   top: 100px;
 }
 
-#signUpBtn {
-  position: relative;
-  top: 115px;
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
 }
 
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
 footer {
   margin-top: 45px;
   padding-top: 5px;
