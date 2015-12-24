@@ -1,6 +1,9 @@
 <h1 class="center">Users of the T!ckles website</h1>
 
 <div class = "center">
+	
+	<%= will_paginate %>
+	
 	<% @users.each do |user| %>
 	
 		<ul class = "listing">
@@ -22,4 +25,5 @@
 		</ul>
 			
 	<% end %>
+	<%= will_paginate %>
 </div>
