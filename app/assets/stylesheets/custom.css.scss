@@ -41,7 +41,8 @@ $navbar-default-bg: #ff0000;
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: black;
+  position: relative;
+  top: 100px;
 }
 
 .article-meta-details {
